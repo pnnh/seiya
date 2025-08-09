@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:suzaku/services/image/image.dart';
+import 'package:seiya/services/image/image.dart';
 
 class MHomePage extends ConsumerStatefulWidget {
   const MHomePage({super.key});

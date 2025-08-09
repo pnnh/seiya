@@ -1,6 +1,6 @@
 // import 'dart:convert';
 
-// import 'package:suzaku/services/models/picture.dart';
+// import 'package:seiya/services/models/picture.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'resource.g.dart';

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:suzaku/config.dart';
-import 'package:suzaku/models/article.dart';
+import 'package:seiya/config.dart';
+import 'package:seiya/models/article.dart';
 
 class WArticleService {
   static Future<ArticleModel?> getArticle(String pk) async {

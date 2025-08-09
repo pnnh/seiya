@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:suzaku/application/web/layout/size.dart';
-import 'package:suzaku/application/web/theme.dart';
-import 'package:suzaku/models/svg/state.dart';
+import 'package:seiya/application/web/layout/size.dart';
+import 'package:seiya/application/web/theme.dart';
+import 'package:seiya/models/svg/state.dart';
 
 class WSvgViewerPartial extends ConsumerWidget {
   const WSvgViewerPartial({super.key});

@@ -1,9 +1,7 @@
-flutter示例程序
+Svg工具
 
 ## 在web时选择渲染引擎
-
-详细参考以下链接：https://docs.flutter.dev/development/tools/web-renderers
-
+ 
 ```shell
 flutter run -d chrome --web-renderer html
 flutter build web --release --web-renderer auto --dart-define=FLUTTER_WEB_CANVASKIT_URL=canvaskit/  
@@ -31,5 +29,5 @@ flutter build web --pwa-strategy=none
 
 ```bash
 # 构建docker镜像
-docker build --progress=plain -t suzaku .
+docker build --progress=plain -t seiya .
 ```

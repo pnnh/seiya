@@ -32,8 +32,7 @@ COPY build/web/ ./build/web
 
 USER express
 
-EXPOSE 7201
-ENV PORT=7201
+ENV PORT=7211
 ENV HOSTNAME="0.0.0.0"
 
 CMD ["node", "dist/server.mjs"]

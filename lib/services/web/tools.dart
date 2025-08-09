@@ -1,4 +1,4 @@
-import 'package:suzaku/models/tool.dart';
+import 'package:seiya/models/tool.dart';
 
 List<ToolModel> webSelectTools() {
   List<ToolModel> list = List.empty(growable: true);

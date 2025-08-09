@@ -1,4 +1,4 @@
-package com.huable.suzaku
+package com.huable.seiya
 
 import io.flutter.embedding.android.FlutterActivity
 
