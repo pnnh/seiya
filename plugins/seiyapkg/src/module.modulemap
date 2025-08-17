@@ -1,0 +1,5 @@
+module MTSeiyapkg {
+	header "seiyapkg/seiyapkg.h"
+
+    export *
+}

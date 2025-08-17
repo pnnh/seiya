@@ -1,0 +1,44 @@
+name: seiyapkg
+description: "A new Flutter plugin project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.8.1
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  web: ^1.0.0
+  plugin_platform_interface: ^2.0.2
+  ffi: ^2.1.4
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: xyz.huable.seiyapkg
+        pluginClass: SeiyapkgPlugin
+      ios:
+        pluginClass: SeiyapkgPlugin
+      linux:
+        pluginClass: SeiyapkgPlugin
+      macos:
+        pluginClass: SeiyapkgPlugin
+      windows:
+        pluginClass: SeiyapkgPluginCApi
+      web:
+        pluginClass: SeiyapkgWeb
+        fileName: seiyapkg_web.dart
+
+dev_dependencies:
+  ffigen: ^17.0.0
+  build_runner: ^2.4.15
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.9.4
+  flutter_test:
+    sdk: flutter
+  msix: ^3.16.8

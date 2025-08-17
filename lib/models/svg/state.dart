@@ -1,12 +1,11 @@
-import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../services/common/svg/painter.dart';
 
-part 'state.g.dart';
-
 part 'state.freezed.dart';
+part 'state.g.dart';
 
 @freezed
 class SvgModel with _$SvgModel {
@@ -21,7 +20,7 @@ class SvgModel with _$SvgModel {
 class SvgModelState extends _$SvgModelState {
   @override
   Future<SvgModel> build() async {
-    return SvgModel(text: '暂无预览', painter: null);
+    return SvgModel(text: '', painter: null);
   }
 
   Future<void> setText(String text) async {

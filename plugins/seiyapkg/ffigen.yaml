@@ -1,0 +1,12 @@
+name: SeiyapkgNative
+description: ffi bindings for seiyapkg plugin.
+output: 'lib/generated_bindings.dart'
+headers:
+  entry-points:
+    - 'src/seiyapkg/seiyapkg.h'
+    - 'src/quark/types/string.h'
+compiler-opts:
+  - '-Isrc'
+llvm-path:
+  - '/usr/local/opt/llvm'
+  - 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64'
